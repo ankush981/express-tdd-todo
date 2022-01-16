@@ -1,0 +1,21 @@
+{
+  "name": "tdd-stefan-hyltoft-udemy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --detectOpenHandles"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongoose": "^6.1.4"
+  },
+  "devDependencies": {
+    "jest": "^27.4.5",
+    "node-mocks-http": "^1.11.0",
+    "supertest": "^6.1.6"
+  }
+}
